@@ -1,19 +1,24 @@
 {
   "name": "yusrat-next-react-project",
   "version": "0.1.0",
+  "homepage": "https://github.com/yusratmiah/sl-ymiah-webpage.git",
   "private": true,
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d ./out",
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "next": "15.1.7",
+    "papaparse": "^5.5.2",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "next": "15.1.7"
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "postcss": "^8",
     "tailwindcss": "^3.4.1"
   }

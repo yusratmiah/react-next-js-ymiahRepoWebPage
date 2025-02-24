@@ -19,3 +19,31 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.frontPageFormat {
+  font-size: 2rem; /* Makes the text large */
+  font-weight: Normal; /* Optional: makes the text bold */
+  text-align: center; /* Centers the text */
+  margin-top: 8px; /* Adds some spacing above */
+}
+
+.frontPageTimeTemp {
+  font-size: 25px; /* Makes the text large */
+  font-weight: Normal; /* Optional: makes the text bold */
+  text-align: center; /* Centers the text */
+  margin-top: 8px; /* Adds some spacing above */
+}
+
+.fontCIDParagraph {
+  font-size: 20px; /* Makes the text large */
+  font-weight: Normal; /* Optional: makes the text bold */
+  text-align: center; /* Centers the text */
+  margin-top: 8px; /* Adds some spacing above */
+}
+
+.fontCIDTitle {
+  font-size: 35px; /* Makes the text large */
+  font-weight: Bold; /* Optional: makes the text bold */
+  text-align: center; /* Centers the text */
+  margin-top: 8px; /* Adds some spacing above */
+}

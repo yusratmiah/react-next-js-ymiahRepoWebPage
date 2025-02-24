@@ -1,0 +1,51 @@
+.tdStyleTitle {
+    color: black;
+    margin: 0 auto; /* Centers block elements */
+    font-weight: bold;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center; /* Centers text inside */
+    display: block; /* Ensures margin auto works */
+    font-size: 30px;
+}
+
+
+
+
+.tdStyleBlackBold {
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    border: 1px solid black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.tdStyleBlueBold {
+    color: #4682B4;
+    font-weight: bold;
+    padding: 10px;
+    border: 1px solid black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.tdStyleOrange {
+    color: orangered;
+    font-weight: normal;
+    padding: 10px;
+    border: 1px solid black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.orgContainer {
+    display: flex;
+    justify-content: space-between; /* Distributes space between images */
+    align-items: center; /* Centers images vertically */
+    gap: 20px; /* Adds space between the images */
+    padding: 0 50px; /* Moves images away from the edges *
+    flex-wrap: wrap; /* Allows images to wrap onto the next line on smaller screens */
+  }
+  
+  .orgContainer img {
+    width: 250px; /* Adjust the width as needed */
+    height: auto;
+  }

@@ -1,4 +1,4 @@
-export default function Page() {
+//export default function Page() {
 
     // async function submitForm(formData){
     //     // going to mark that it is a server side function that can be called from client side code
@@ -51,4 +51,22 @@ export default function Page() {
     //             </form>
     //     </main>
     // );
+//}
+
+//<Image src="/CID-Day.jpg" alt="Image of Creativity and Innovation District Logo" width={500} height={300} style={{ display: 'block', margin: '0 auto' }} />
+
+export default function Page() {
+  return (
+    <main>
+      <div>
+        <h1 className= "fontCIDTitle">Residential Well-Being (RWB) Contact Information</h1>
+        <br/>
+        <p className="fontCIDParagraph border-2 border-gray-300 p-4 bg-gray-100">
+          RWB Main Office - New Hall West 144, 540-231-1139
+          To contact your RWB Professional Staff in District 1, emailL
+          rwbdistrict1@vt.edu
+        </p>
+      </div>
+    </main>
+  );
 }

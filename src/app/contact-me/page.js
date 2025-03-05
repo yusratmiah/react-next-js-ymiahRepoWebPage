@@ -63,7 +63,7 @@ export default function Page() {
         <br/>
         <p className="fontCIDParagraph border-2 border-gray-300 p-4 bg-gray-100">
           RWB Main Office - New Hall West 144, 540-231-1139 <br/>
-          To contact your RWB Professional Staff in District 1, emailL
+          To contact your RWB Professional Staff in District 1, email:
           rwbdistrict1@vt.edu
         </p>
       </div>

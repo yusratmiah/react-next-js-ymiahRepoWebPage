@@ -6,6 +6,10 @@ import styles from "./table.module.css";
 
 import Image from 'next/image';
 
+export const metadata = {
+    title: 'About Me',
+  };
+
 async function getData() {
     // process.cwd(): Returns the current working directory of your Next.js project (i.e., the root directory where package.json is located)
     // 

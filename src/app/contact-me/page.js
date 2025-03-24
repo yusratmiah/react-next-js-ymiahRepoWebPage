@@ -55,6 +55,10 @@
 
 //<Image src="/CID-Day.jpg" alt="Image of Creativity and Innovation District Logo" width={500} height={300} style={{ display: 'block', margin: '0 auto' }} />
 
+export const metadata = {
+  title: 'Contact Me',
+};
+
 export default function Page() {
   return (
     <main>

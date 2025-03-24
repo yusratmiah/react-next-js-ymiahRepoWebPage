@@ -14,6 +14,10 @@ import Image from 'next/image';
 //     );
 //   }
 
+export const metadata = {
+  title: 'What is CID?',
+};
+
 export function CIDLink() {
   return (
     <Link href="https://housing.vt.edu/experience/YourResidenceHall/HallListing/CID.html" className="text-blue-500">The Creativity and Innovation District Residence Hall
